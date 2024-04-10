@@ -1,0 +1,143 @@
+@media (min-width: 282px) and (max-width: 494px){
+    .about-navbar{
+      display: flex;
+      flex-direction: column;
+    }
+    .service-container{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 10px;
+    }
+    .contact-nav{
+        display: flex;
+        flex-direction: row;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darkgrey;
+}
+.home-navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color:rgb(223, 171, 171);
+    width: 140px;
+    text-align: center;
+    height: 79vh;
+}
+
+.home-navbar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+h1{
+    font-style:oblique;
+}
+.btn{
+    position: relative;
+    left: 900px;
+    }
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro{
+    background-image: url(../Assets/images/Snapchat-779329826.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #fff7f7;
+    width: 500px;
+    height: 470px;
+    padding: 1rem;   
+}
+.heading{
+    background-color: darkgrey;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.box{
+    border: 1px solid;
+    text-align: center;
+    height: 100vh;
+}
+.about-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 2rem;
+}
+.about-navbar a{
+    text-decoration: none;
+    color: #fff7f7;
+}
+.About-div{
+    margin: 3rem;
+}
+.About-flex{
+    display: flex;
+    margin: 2rem;
+    gap: 3rem;
+}
+.myself img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.service-container{
+    display: flex;
+    gap: 7rem;
+    margin: 3rem;
+}
+.services{
+    text-align: center;
+}
+
+.box{
+    border: 2px solid;
+    height: 50vh;
+    padding: 1rem;
+}
+.box img{
+    width: 200px;
+    height: 200px;
+}
+.services{
+    margin: 3rem;
+}
+.contact-nav{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+.contact-nav a{
+    text-decoration: none;
+    color: #fff7f7;
+}
+
+.contact{
+    margin: 2rem;
+}
+.about-navbar hh{
+    display: flex;
+    justify-content: end;
+}
